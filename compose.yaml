@@ -8,5 +8,4 @@ services:
         source: "./app"
         target: "/app"
     tty: true
-    stdin_open: true
-    
+    stdin_open: true    
