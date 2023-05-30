@@ -9,5 +9,5 @@ services:
         target: "/app"
     tty: true
     stdin_open: true
-    # command: bash -c "cd /portfolio && npm install && npm run dev"
+    command: bash -c "cd /portfolio && yarn && yarn dev"  
     
