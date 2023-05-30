@@ -8,6 +8,4 @@ services:
         source: "./app"
         target: "/app"
     tty: true
-    stdin_open: true
-    command: bash -c "cd /portfolio && yarn && yarn dev"  
-    
+    stdin_open: true    
