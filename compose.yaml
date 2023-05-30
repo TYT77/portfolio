@@ -1,0 +1,13 @@
+services:
+  app:
+    build: .
+    ports:
+      - "5173:5173"
+    volumes:
+      - type: bind
+        source: "./app"
+        target: "/app"
+    tty: true
+    stdin_open: true
+    # command: bash -c "cd /portfolio && npm install && npm run dev"
+    
