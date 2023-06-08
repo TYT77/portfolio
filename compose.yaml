@@ -9,3 +9,10 @@ services:
         target: "/app"
     tty: true
     stdin_open: true    
+    command: yarn dev
+
+# docker compose build --no-cache
+# docker compose run --rm app yarn install --force
+# docker compose up -d  
+# docker-compose down --rmi all --volumes --remove-orphans
+
